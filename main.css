@@ -32,6 +32,34 @@ a {
     text-decoration: none;
 }
 
+.companyDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.motto {
+    position: relative;
+}
+
+.motto article,
+.motto h1 {
+    background-color: #2265a9;
+    color: #fff;
+}
+
+.motto h1 {
+    float: right;
+}
+
+.motto-title {
+    font-size: 1.3rem;
+    font-weight: 200;
+    border-bottom: 1px dashed #fff;
+}
+
+
 .similar-articles {
     width: 100%;
     display: flex;
@@ -46,7 +74,10 @@ a {
 
 .main-article {
     display: flex;
-}
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+} 
 
 .main-info {
     display: flex;
@@ -111,6 +142,34 @@ img {
 .main-article img {
     width: 200px;
     height: 160px;
+    margin: 10px;
+}
+
+.categories h3 {
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.categories-list li {
+    line-height: 26px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #222;
+}
+
+.footer {
+    background-color: #2265a9;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dashed {
+    border-bottom: 1px dashed #555;
+}
+
+.dotted {
+    border-bottom: 1px dotted #555;
 }
 
 /* for desktop */
@@ -126,10 +185,12 @@ img {
 
     .main-content .main-article {
         flex: 2;
+        flex-direction: row;
     }
 
     .main-content .categories {
         flex: 1;
+        align-items: center;
     }
 
     .navigation ul {
@@ -140,6 +201,55 @@ img {
         flex: 1;
         line-height: 60px;
         margin: 5px;
+    }
+
+    .companyDetails {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .techCorporate {
+        display: flex;
+        align-items: center;
+    }
+
+    .techCorporate h1 {
+        font-size: 3rem;
+        font-weight: 200;
+        margin-right: 1.5rem;
+        padding-right: 1rem;
+        border-right: 1px solid #222;
+        font-weight: 100;
+    }
+
+    .companyContact>* {
+        margin: 0;
+        padding: 0;
+    }
+
+    .motto {
+        margin-bottom: 20px;
+    }   
+
+    .motto article {
+        width: 38%;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+    .motto h1 {
+        position: absolute;
+        bottom: -70px;
+        right: 20px;
+        font-size: 4rem;
+    }
+
+    .footer {
+        background-color: #2265a9;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
     }
 
 }
