@@ -1,0 +1,63 @@
+.comercial {
+    display: inline-table;
+}
+
+.comercial h5 {
+    border-bottom: 1px dashed #fff;
+}
+
+.logo {
+    font-size: 4vw;
+    display: inline-table;
+    position: relative;
+    max-width: 55%;
+    top: 2rem;
+}
+
+.similar {
+    background-color: #e8e8e8;
+    width: 20rem;
+}
+
+.categories {
+    background-color: #f6f6f6;
+}
+
+.categories li {
+    line-height: 1.7rem;
+    margin: 0;
+    padding: 0;
+}
+
+.blue-background {
+    background-color: #2265a9;
+}
+
+img {
+    object-fit: cover;
+}
+
+.similar img {
+    width: 240px;
+    height: 90px; 
+    align-self: center;
+}
+
+.main-pic img {
+    width: 200px;
+    height: 160px; 
+}
+
+.gallery img {
+    width: 174px;
+    height: 100px;
+    margin: 10px;
+    
+}
+.dashed {
+    border-bottom: 1px dashed #555;
+}
+
+.dotted {
+    border-bottom: 1px dotted #555;
+}
