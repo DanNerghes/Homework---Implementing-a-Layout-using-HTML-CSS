@@ -16,7 +16,6 @@
 
 .similar {
     background-color: #e8e8e8;
-    width: 20rem;
 }
 
 .categories {
@@ -46,6 +45,7 @@ img {
 .main-pic img {
     width: 200px;
     height: 160px; 
+    box-sizing: content-box;
 }
 
 .gallery img {
